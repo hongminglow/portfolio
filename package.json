@@ -3,6 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "imports": {
+    "#assets/*": "./src/assets/*",
+    "#components/*": "./src/components/*",
+    "#constants/*": "./src/constants/*",
+    "#pages/*": "./src/pages/*"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
