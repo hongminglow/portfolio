@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <header className="header">
       <NavLink to="/">
-        <img src={logo} alt="logo" className="w-6 h-6 object-contain" />
+        <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
       </NavLink>
       <nav className="flex text-lg gap-7 font-medium">
         <NavLink

@@ -149,8 +149,7 @@ Contact form to reach out for collaborations, job opportunities, or inquiries.
 ## 🔗 Links
 
 - **GitHub**: [hongminglow](https://github.com/hongminglow)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/YourLinkedInUsername)
-- **Portfolio Live**: (Add your deployment URL here)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/low-hong-ming-476353210/)
 
 ## 📝 License
 
