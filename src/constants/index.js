@@ -27,6 +27,8 @@ import {
   vue,
   companySmall,
   companyMedium,
+  tradeforyou,
+  foodmonkey,
 } from "../assets/icons";
 
 export const skills = [
@@ -181,7 +183,7 @@ export const experiences = [
     title: "Senior Software Engineer",
     company_name: "Atoz Software Sdn Bhd",
     icon: companyMedium,
-    iconBg: "#182f89",
+    iconBg: "#6996b2",
     date: "April 2024 - Present",
     points: [
       "Delivered frontend features and web applications using React and modern tooling, often within tight timelines.",
@@ -206,8 +208,25 @@ export const socialLinks = [
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: " https://www.linkedin.com/in/low-hong-ming-476353210",
+    link: "https://www.linkedin.com/in/low-hong-ming-476353210",
   },
 ];
 
-export const projects = [];
+export const projects = [
+  {
+    iconUrl: tradeforyou,
+    theme: "btn-back-blue",
+    name: "Trade For You",
+    description:
+      "A cutting-edge real-time stock tracking platform that empowers investors with live market data, personalized watchlists, and the latest news for each stock",
+    link: "https://stock-trading-ft0l4xbr3-low-hong-mings-projects.vercel.app/",
+  },
+  {
+    iconUrl: foodmonkey,
+    theme: "btn-back-black",
+    name: "Food Monkey",
+    description:
+      "A modern and simple food ordering app built with Expo and React Native",
+    link: "https://github.com/hongminglow/food-monkey",
+  },
+];

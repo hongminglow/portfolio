@@ -7,11 +7,11 @@ import { Bird } from "#models/Bird.jsx";
 import { Plane } from "#models/Plane.jsx";
 import HomeInfo from "#components/HomeInfo.jsx";
 
-import sakura from "../assets/sakura.mp3";
-import { soundoff, soundon } from "../assets/icons";
+import freedomMile from "../assets/freedom-mile.mp3";
+import { Volume2, VolumeOff } from "lucide-react";
 
 const Home = () => {
-  const audioRef = useRef(new Audio(sakura));
+  const audioRef = useRef(new Audio(freedomMile));
   audioRef.current.volume = 0.4;
   audioRef.current.loop = true;
 
@@ -107,12 +107,22 @@ const Home = () => {
       </Canvas>
 
       <div className="absolute bottom-2 left-2">
-        <img
-          className="w-10 h-10 cursor-pointer object-contain"
-          src={!isPlayingMusic ? soundoff : soundon}
-          alt="sound"
+        <button
+          className="w-10 h-10 bg-blue-700 flex items-center justify-center rounded-full"
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-        />
+        >
+          {isPlayingMusic ? (
+            <Volume2
+              color="#fff"
+              className="w-5 h-5 cursor-pointer object-contain"
+            />
+          ) : (
+            <VolumeOff
+              color="#fff"
+              className="w-5 h-5 cursor-pointer object-contain"
+            />
+          )}
+        </button>
       </div>
     </section>
   );

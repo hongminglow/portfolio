@@ -39,6 +39,8 @@ import contact from "./contact.svg";
 import soundon from "./soundon.png";
 import soundoff from "./soundoff.png";
 import vue from "./vue.svg";
+import tradeforyou from "./trade-for-you.png";
+import foodmonkey from "./food-monkey.png";
 
 export {
   astro,
@@ -82,4 +84,6 @@ export {
   vue,
   companySmall,
   companyMedium,
+  tradeforyou,
+  foodmonkey,
 };
