@@ -17,8 +17,8 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className="info-box">
         <p className="font-medium sm:text-xl text-center">
-          5+ years in full-stack web & mobile development <br />
-          Expert in React, Vue, Next.js, and Nuxt <br />
+          5+ years in web & mobile development <br />
+          Expert in React & Nextjs, Experienced in Astro, Vue, Nuxt <br />
           Passionate about building scalable applications
         </p>
 

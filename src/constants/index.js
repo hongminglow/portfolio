@@ -1,228 +1,213 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
-    contact,
-    css,
-    estate,
-    express,
-    git,
-    github,
-    html,
-    javascript,
-    linkedin,
-    mongodb,
-    motion,
-    mui,
-    nextjs,
-    nodejs,
-    pricewise,
-    react,
-    redux,
-    sass,
-    snapgram,
-    summiz,
-    tailwindcss,
-    threads,
-    typescript
+  astro,
+  contact,
+  cocos,
+  docker,
+  expo,
+  gitlab,
+  godot,
+  golang,
+  kotlin,
+  nestjs,
+  nuxt,
+  reactnative,
+  css,
+  git,
+  github,
+  html,
+  javascript,
+  linkedin,
+  motion,
+  mui,
+  nextjs,
+  nodejs,
+  react,
+  tailwindcss,
+  typescript,
+  vue,
+  companySmall,
+  companyMedium,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+  {
+    imageUrl: git,
+    name: "Git",
+    type: "Version Control",
+  },
+  {
+    imageUrl: github,
+    name: "GitHub",
+    type: "Version Control",
+  },
+  {
+    imageUrl: gitlab,
+    name: "GitLab",
+    type: "Version Control",
+  },
+  {
+    imageUrl: html,
+    name: "HTML",
+    type: "Frontend",
+  },
+  {
+    imageUrl: javascript,
+    name: "JavaScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: typescript,
+    name: "TypeScript",
+    type: "Frontend",
+  },
+  {
+    imageUrl: tailwindcss,
+    name: "Tailwind CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: css,
+    name: "CSS",
+    type: "Frontend",
+  },
+  {
+    imageUrl: motion,
+    name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: mui,
+    name: "Material-UI",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nodejs,
+    name: "Nodejs",
+    type: "Backend",
+  },
+  {
+    imageUrl: nestjs,
+    name: "Nestjs",
+    type: "Backend",
+  },
+  {
+    imageUrl: golang,
+    name: "Golang",
+    type: "Backend",
+  },
+  {
+    imageUrl: react,
+    name: "React",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nextjs,
+    name: "Nextjs",
+    type: "Frontend",
+  },
+  {
+    imageUrl: vue,
+    name: "Vue",
+    type: "Frontend",
+  },
+  {
+    imageUrl: nuxt,
+    name: "Nuxt",
+    type: "Frontend",
+  },
+  {
+    imageUrl: astro,
+    name: "Astro",
+    type: "Frontend",
+  },
+  {
+    imageUrl: docker,
+    name: "Docker",
+    type: "Devops",
+  },
+  {
+    imageUrl: reactnative,
+    name: "React Native",
+    type: "Mobile Development",
+  },
+  {
+    imageUrl: expo,
+    name: "Expo",
+    type: "Mobile Development",
+  },
+  {
+    imageUrl: kotlin,
+    name: "Kotlin",
+    type: "Mobile Development",
+  },
+  {
+    imageUrl: cocos,
+    name: "Cocos",
+    type: "Game Development",
+  },
+  {
+    imageUrl: godot,
+    name: "Godot",
+    type: "Game Development",
+  },
 ];
 
 export const experiences = [
-    {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+  {
+    title: "Software Developer Intern",
+    company_name: "Ardent Asia Pacific Sdn Bhd",
+    icon: companySmall,
+    iconBg: "#b7e4c7",
+    date: "Jan 2021 - June 2021",
+    points: [
+      "Focused on front-end development using React, ensuring the smooth functioning and visual appeal of web applications",
+      "Collaborated with team members, adhered to project timelines, and participated in bug fixing activities when required",
+    ],
+  },
+  {
+    title: "System Engineer",
+    company_name: "Ardent Asia Pacific Sdn Bhd",
+    icon: companySmall,
+    iconBg: "#fbc3bc",
+    date: "July 2021 - Feb 2024",
+    points: [
+      "Developing and maintaining web applications using React and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "Senior Software Engineer",
+    company_name: "Atoz Software Sdn Bhd",
+    icon: companyMedium,
+    iconBg: "#182f89",
+    date: "April 2024 - Present",
+    points: [
+      "Delivered frontend features and web applications using React and modern tooling, often within tight timelines.",
+      "Maintained clear, proactive communication with designers and business analysts to align on requirements and UX expectations.",
+      "Implemented responsive, accessible, and cross-browser compatible user interfaces for desktop and mobile.",
+      "Collaborated and perform discussion with peers to maintain high code quality.",
+    ],
+  },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
-        name: 'GitHub',
-        iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
-    },
-    {
-        name: 'LinkedIn',
-        iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
-    }
+  {
+    name: "Contact",
+    iconUrl: contact,
+    link: "/contact",
+  },
+  {
+    name: "GitHub",
+    iconUrl: github,
+    link: "https://github.com/hongminglow",
+  },
+  {
+    name: "LinkedIn",
+    iconUrl: linkedin,
+    link: " https://www.linkedin.com/in/low-hong-ming-476353210",
+  },
 ];
 
-export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
-];
+export const projects = [];
