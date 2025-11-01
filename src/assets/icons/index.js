@@ -41,6 +41,9 @@ import soundoff from "./soundoff.png";
 import vue from "./vue.svg";
 import tradeforyou from "./trade-for-you.png";
 import foodmonkey from "./food-monkey.png";
+import gsap from "./gsap.svg";
+import elixir from "./elixir.png";
+import nexus from "./nexus.png";
 
 export {
   astro,
@@ -86,4 +89,7 @@ export {
   companyMedium,
   tradeforyou,
   foodmonkey,
+  gsap,
+  elixir,
+  nexus,
 };

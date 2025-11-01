@@ -29,6 +29,9 @@ import {
   companyMedium,
   tradeforyou,
   foodmonkey,
+  gsap,
+  elixir,
+  nexus,
 } from "../assets/icons";
 
 export const skills = [
@@ -75,6 +78,11 @@ export const skills = [
   {
     imageUrl: motion,
     name: "Motion",
+    type: "Animation",
+  },
+  {
+    imageUrl: gsap,
+    name: "GSAP",
     type: "Animation",
   },
   {
@@ -215,18 +223,43 @@ export const socialLinks = [
 export const projects = [
   {
     iconUrl: tradeforyou,
-    theme: "btn-back-blue",
+    theme: "btn-back-black",
     name: "Trade For You",
     description:
       "A cutting-edge real-time stock tracking platform that empowers investors with live market data, personalized watchlists, and the latest news for each stock",
-    link: "https://stock-trading-ft0l4xbr3-low-hong-mings-projects.vercel.app/",
+    link: "https://stock-trading-app-gold.vercel.app/",
   },
   {
     iconUrl: foodmonkey,
-    theme: "btn-back-black",
+    theme: "btn-back-orange",
     name: "Food Monkey",
     description:
       "A modern and simple food ordering app built with Expo and React Native",
     link: "https://github.com/hongminglow/food-monkey",
+  },
+
+  {
+    iconUrl: godot,
+    theme: "btn-back-blue",
+    name: "Disccord",
+    description:
+      "A real-time chat application built with Next.js, Supabase, and TypeScript. This project demonstrates how to build a modern, scalable chat platform with real-time messaging, presence tracking, and Row-Level Security (RLS) policies.",
+    link: "https://disscord-alpha.vercel.app/",
+  },
+  {
+    iconUrl: elixir,
+    theme: "btn-back-black",
+    name: "Elixir",
+    description:
+      "A stunning, interactive landing page showcasing the art of cocktail mixology, powered by cutting-edge animations and modern web technologies",
+    link: "https://elixir-sage.vercel.app/",
+  },
+  {
+    iconUrl: nexus,
+    theme: "btn-back-yellow",
+    name: "Nexus",
+    description:
+      "A modern, feature-rich admin dashboard, showcasing industry-standard dashboard UI patterns commonly used in enterprise-level applications",
+    link: "https://nexus-two-olive.vercel.app/",
   },
 ];
