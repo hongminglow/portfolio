@@ -32,6 +32,7 @@ import {
   gsap,
   elixir,
   nexus,
+  byebye,
 } from "../assets/icons";
 
 export const skills = [
@@ -261,5 +262,13 @@ export const projects = [
     description:
       "A modern, feature-rich admin dashboard, showcasing industry-standard dashboard UI patterns commonly used in enterprise-level applications",
     link: "https://nexus-two-olive.vercel.app/",
+  },
+  {
+    iconUrl: byebye,
+    theme: "btn-back-pink",
+    name: "ByeBye",
+    description:
+      "A modern, full-featured e-commerce web application built with React 19, TypeScript, and Vite, as well as integrated with Stripe payment",
+    link: "https://byebye-rho.vercel.app/",
   },
 ];

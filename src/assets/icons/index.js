@@ -44,6 +44,7 @@ import foodmonkey from "./food-monkey.png";
 import gsap from "./gsap.svg";
 import elixir from "./elixir.png";
 import nexus from "./nexus.png";
+import byebye from "./byebye.png";
 
 export {
   astro,
@@ -92,4 +93,5 @@ export {
   gsap,
   elixir,
   nexus,
+  byebye,
 };
