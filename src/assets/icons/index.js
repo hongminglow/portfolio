@@ -45,6 +45,7 @@ import gsap from "./gsap.svg";
 import elixir from "./elixir.png";
 import nexus from "./nexus.png";
 import byebye from "./byebye.png";
+import allin from "./allin.svg";
 
 export {
   astro,
@@ -94,4 +95,5 @@ export {
   elixir,
   nexus,
   byebye,
+  allin,
 };

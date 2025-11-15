@@ -33,6 +33,7 @@ import {
   elixir,
   nexus,
   byebye,
+  allin,
 } from "../assets/icons";
 
 export const skills = [
@@ -270,5 +271,13 @@ export const projects = [
     description:
       "A modern, full-featured e-commerce web application built with React 19, TypeScript, and Vite, as well as integrated with Stripe payment",
     link: "https://byebye-rho.vercel.app/",
+  },
+  {
+    iconUrl: allin,
+    theme: "btn-back-red",
+    name: "All In",
+    description:
+      "An online dice gaming platform, fast-paced, real-time betting platform where fortune favors the bold.",
+    link: "https://all-in-delta.vercel.app/",
   },
 ];
