@@ -46,6 +46,7 @@ import elixir from "./elixir.png";
 import nexus from "./nexus.png";
 import byebye from "./byebye.png";
 import allin from "./allin.svg";
+import coinPulse from "./coin-pulse.svg";
 
 export {
   astro,
@@ -96,4 +97,5 @@ export {
   nexus,
   byebye,
   allin,
+  coinPulse,
 };

@@ -34,6 +34,7 @@ import {
   nexus,
   byebye,
   allin,
+  coinPulse,
 } from "../assets/icons";
 
 export const skills = [
@@ -279,5 +280,13 @@ export const projects = [
     description:
       "An online dice gaming platform, fast-paced, real-time betting platform where fortune favors the bold.",
     link: "https://all-in-delta.vercel.app/",
+  },
+  {
+    iconUrl: coinPulse,
+    theme: "btn-back-green",
+    name: "Coin Pulse",
+    description:
+      "CryptoPulse is a high-performance analytics dashboard delivering real-time market intelligence via CoinGecko’s API and WebSockets",
+    link: "https://coin-pulse-wine.vercel.app/",
   },
 ];
